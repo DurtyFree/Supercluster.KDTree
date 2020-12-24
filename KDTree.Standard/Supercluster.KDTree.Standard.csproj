@@ -10,6 +10,9 @@ Tutorials and Wiki: https://github.com/pollyface/Supercluster.KDTree/wiki
 GitHub: https://github.com/DurtyFree/Supercluster.KDTree</Description>
     <RepositoryUrl>https://github.com/DurtyFree/Supercluster.KDTree</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
@@ -26,6 +29,10 @@ GitHub: https://github.com/DurtyFree/Supercluster.KDTree</Description>
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="System.Reflection.TypeExtensions" Version="4.7.0" />
   </ItemGroup>
 
