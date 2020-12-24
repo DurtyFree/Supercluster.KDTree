@@ -75,13 +75,13 @@
     <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\KDTree\Supercluster.KDTree.csproj">
-      <Project>{D35C4E61-DC99-4AD1-9A36-2F1E723F32C9}</Project>
-      <Name>Supercluster.KDTree</Name>
-    </ProjectReference>
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
+    <ProjectReference Include="..\KDTree\Supercluster.KDTree.csproj">
+      <Project>{d35c4e61-dc99-4ad1-9a36-2f1e723f32c9}</Project>
+      <Name>Supercluster.KDTree</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
