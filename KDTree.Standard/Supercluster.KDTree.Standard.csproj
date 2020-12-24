@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net461</TargetFrameworks>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.5</Version>
+    <Description>This is an extremely-fast and easy to use KDTree written entirely in modern C#.  This is the fastest and simplest to use KDTree that I have been able to find for .NET.  The project has thorough documentation and is open-source.  This module is a part of the larger Supercluster project.
+
+Tutorials and Wiki: https://github.com/pollyface/Supercluster.KDTree/wiki
+GitHub: https://github.com/DurtyFree/Supercluster.KDTree</Description>
+    <RepositoryUrl>https://github.com/DurtyFree/Supercluster.KDTree</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
